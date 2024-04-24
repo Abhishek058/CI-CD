@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "pulled from Abhishek!"
+        run: echo "Pulled from Abhishek!"
