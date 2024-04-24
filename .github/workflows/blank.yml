@@ -1,8 +1,13 @@
-name: hello-world
-on: push
+name: pull-git
+
+on:
+  pull_request:
+    branches: 
+      - abhishek
+
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        run: echo "pulled from Abhishek!"
